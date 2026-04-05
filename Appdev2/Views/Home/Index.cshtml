@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Portfolio";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio – Del Rosario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Mono:wght@400;500&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/portfolio.css" asp-append-version="true" />
+</head>
+<body>
+
+    <!-- Masthead -->
+    <header class="masthead">
+        <div class="masthead-top">
+            <span class="edition">Est. 2024</span>
+            <div class="masthead-title">
+                <h1>Divine Rose A. Del Rosario</h1>
+                <p class="subtitle">Snoopy &nbsp;·&nbsp; Culinary &nbsp;·&nbsp; Creative</p>
+            </div>
+            <span class="edition">Portfolio · 2025</span>
+        </div>
+        <nav class="nav-strip">
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="section-header">
+            <span class="section-label">Background</span>
+            <div class="section-rule"></div>
+            <h2 class="section-title">Favorites</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-body">
+                <p><strong>I'm Divine Rose A. Del Rosario</strong>, a Snoopy and Culinary Enjoyer.</p>
+                <p>I'm passionate about culinary and how fascinating cooking is, time and effort does not matter even if it takes time.</p>
+                <blockquote class="pull-quote">"Food comes to those who loves to cook"</blockquote>
+                <p>When I'm not at the kitchen, you'll find me playing Valorant.</p>
+            </div>
+            <div class="skills-block">
+                <div class="skill-row"><span class="skill-dot"></span><span class="skill-name">Cheesecake</span><span class="skill-tag">Dessert</span></div>
+                <div class="skill-row"><span class="skill-dot"></span><span class="skill-name">Project Hail Mary</span><span class="skill-tag">Movie</span></div>
+                <div class="skill-row"><span class="skill-dot"></span><span class="skill-name">When Life Gives You Tangerines</span><span class="skill-tag">K-Drama</span></div>
+                <div class="skill-row"><span class="skill-dot"></span><span class="skill-name">AppDev - Sir. Ezeck </span><span class="skill-tag">Subject</span></div>
+                <div class="skill-row"><span class="skill-dot"></span><span class="skill-name">Adventure Time</span><span class="skill-tag">Cartoon</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work of art -->
+    <section class="section" id="work">
+        <div class="section-header">
+            <span class="section-label">Culinary Pieces</span>
+            <div class="section-rule"></div>
+            <h2 class="section-title">The Portfolio</h2>
+        </div>
+        <div class="work-grid">
+            <div class="work-item">
+                <div class="work-num">No. 001</div>
+                <img src="~/images/project1.jpg" alt="Project One" class="work-img" />
+                <h3 class="work-title">Carrot Cake</h3>
+                <p class="work-desc">A soft chiffon cake with walnuts and carrots alongside creamcheese frosting.</p>
+                <span class="work-tag">Bunie</span><span class="work-tag">Bun</span>
+            </div>
+            <div class="work-item">
+                <div class="work-num">No. 002</div>
+                <img src="~/images/project2.jpg" alt="Project Two" class="work-img" />
+                <h3 class="work-title">Oreo Cheesecake</h3>
+                <p class="work-desc">A Oreo Cheesecake with base filling filled with Oreo topped with whipped cream..</p>
+                <span class="work-tag">Oreo</span><span class="work-tag">Cake</span>
+            </div>
+            <div class="work-item">
+                <div class="work-num">No. 003</div>
+                <img src="~/images/project3.jpg" alt="Project Three" class="work-img" />
+                <h3 class="work-title">Eggs Benedict</h3>
+                <p class="work-desc">A poached egg topped with hollandaise sauce and fresh basil for topping..</p>
+                <span class="work-tag">Tomato</span><span class="work-tag">Bacon</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>© 2025 Viney</span>
+        <span>IloveSnoopy</span>
+    </footer>
+
+</body>
+</html>
